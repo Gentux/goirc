@@ -1,8 +1,8 @@
 package golog
 
 import (
-	log "github.com/fluffle/golog/logging"
-	"github.com/fluffle/goirc/logging"
+	"github.com/gentux/goirc/logging"
+	log "github.com/gentux/golog/logging"
 )
 
 // Simple adapter to utilise my logging package with goirc.

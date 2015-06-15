@@ -4,8 +4,8 @@ import (
 	"bufio"
 	"crypto/tls"
 	"fmt"
-	"github.com/fluffle/goirc/logging"
-	"github.com/fluffle/goirc/state"
+	"github.com/gentux/goirc/logging"
+	"github.com/gentux/goirc/state"
 	"io"
 	"net"
 	"strings"
@@ -101,7 +101,6 @@ type Config struct {
 	// Split PRIVMSGs, NOTICEs and CTCPs longer than SplitLen characters
 	// over multiple lines. Default to 450 if not set.
 	SplitLen int
-
 }
 
 // NewConfig creates a Config struct containing sensible defaults.

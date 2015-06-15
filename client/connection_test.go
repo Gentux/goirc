@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/fluffle/goirc/state"
+	"github.com/gentux/goirc/state"
 	"github.com/golang/mock/gomock"
 	"strings"
 	"testing"

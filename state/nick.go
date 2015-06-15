@@ -1,7 +1,7 @@
 package state
 
 import (
-	"github.com/fluffle/goirc/logging"
+	"github.com/gentux/goirc/logging"
 
 	"reflect"
 )
@@ -144,7 +144,9 @@ func (nk *Nick) Equals(other *Nick) bool {
 
 // Duplicates a NickMode struct.
 func (nm *NickMode) Copy() *NickMode {
-	if nm == nil { return nil }
+	if nm == nil {
+		return nil
+	}
 	n := *nm
 	return &n
 }
